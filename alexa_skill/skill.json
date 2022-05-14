@@ -1,0 +1,46 @@
+{
+    "interactionModel": {
+        "languageModel": {
+            "invocationName": "door lock",
+            "intents": [
+                {
+                    "name": "AMAZON.CancelIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.HelpIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.StopIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.NavigateHomeIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.FallbackIntent",
+                    "samples": []
+                },
+                {
+                    "name": "UnlockIntent",
+                    "slots": [],
+                    "samples": [
+                        "Open the door",
+                        "Unlock the door"
+                    ]
+                },
+                {
+                    "name": "LockIntent",
+                    "slots": [],
+                    "samples": [
+                        "Close the door",
+                        "Lock the door"
+                    ]
+                }
+            ],
+            "types": []
+        }
+    }
+}
