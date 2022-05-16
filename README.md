@@ -23,7 +23,7 @@ The software installation includes creating an Amazon account to set up a Custom
 
 The contents of the product folders are:
 - `raspberry_pi` folder contains the source code run on the Raspberry Pi;
-  - `AWSIoTPythonDSK` is the [SDK developed by Amazon](https://github.com/aws/aws-iot-device-sdk-python) used to to establish the connection between Raspberry Pi and AWS IoT Core service using MQTT client;
+  - `AWSIoTPythonDSK` is the [SDK developed by Amazon](https://github.com/aws/aws-iot-device-sdk-python) used to establish the connection between Raspberry Pi and AWS IoT Core service using MQTT client;
   - `.env_example` an example environmental variable file;
   - `gpio_control.py` the GPIO control module;
   - `knock_detection.py` the knock detection, validation and setter module;
