@@ -23,8 +23,16 @@ The software installation includes creating an Amazon account to set up a Custom
 
 The contents of the product folders are:
 - `raspberry_pi` folder contains the source code run on the Raspberry Pi;
+  - `AWSIoTPythonDSK` is the [SDK developed by Amazon](https://github.com/aws/aws-iot-device-sdk-python) used to to establish the connection between Raspberry Pi and AWS IoT Core service using MQTT client;
+  - `.env_example` an example environmental variable file;
+  - `gpio_control.py` the GPIO control module;
+  - `knock_detection.py` the knock detection, validation and setter module;
+  - `mqtt_client.py` the MQTT client module connecting the Raspberry Pi to the AWS IoT Thing;
 - `lambda` folder contains the source code run in the AWS Lambda function;
-- `alexa_skill` folder contsians the custom skill model of the Alexa Skills Kit console.
+  - `lambda_function.py` the default custom Alexa skill handler template with the custom intents to lock and unlock the door added;
+  - `mqtt_client.py` a module used to establish the MQTT connection with the AWS IoT Thing using the AWS Boto3 client;
+- `alexa_skill` folder contains the custom skill model;
+  - `skill.json` a JSON file of the Alexa Skills Kit console to ease the setup.
 
 Firstly, the a new custom skill must be created under **[Alexa Skills Kit](https://developer.amazon.com/alexa/console/ask)**. Once the skill is created, the `alexa_skill/skill.json` file has to be uploaded under **Build -> Intents -> JSON Editor** tab that looks similar to the image below. Once uploaded, the new model must be **saved** and **built**.
 
