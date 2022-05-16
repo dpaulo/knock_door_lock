@@ -21,6 +21,11 @@ It is recommended to connect the parts using a prototyping board. The parts must
 ### Software
 The software installation includes creating an Amazon account to set up a Custom Alexa Skill, AWS Lambda function, AWS IoT Thing and AWS IAM role. The same region accross different AWS services and the same account for the Alexa enabled device must be used.
 
+The contents of the product folders are:
+- `raspberry_pi` folder contains the source code run on the Raspberry Pi;
+- `lambda` folder contains the source code run in the AWS Lambda function;
+- `alexa_skill` folder contsians the custom skill model of the Alexa Skills Kit console.
+
 * Firstly, the a new custom skill must be created under **[Alexa Skills Kit](https://developer.amazon.com/alexa/console/ask)**. Once the skill is created, the `alexa_skill/skill.json` file has to be uploaded under **Build -> Intents -> JSON Editor** tab that looks similar to the image below. Once uploaded, the new model must be **saved** and **built**.
 
 ![Alexa Skills Kit interface to upload a JSON file](alexa_skills_kit.png "Alexa Skills Kit interface to upload a JSON file")
