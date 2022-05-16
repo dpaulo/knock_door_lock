@@ -1,5 +1,5 @@
 ## SMART KNOCK DOOR LOCK WITH AMAZON ALEXA ON RASPBERRY PI
-
+### Installation guide
 This is the installation guide of the knock pattern detection operated door lock, which can also be controlled using Amazon Alexa device.
 
 ### Hardware
