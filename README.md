@@ -53,3 +53,5 @@ To allow Lambda function communicate with the IoT Thing, a new role must be crea
 The contents of the `raspberry_pi` directory of this repository must be downloaded to the Raspberry Pi. The previously downloaded Device, Amazon Root CA 1 certificates and the private key must be saved to the **raspberry_pi/certs** directory of the project. The `raspberry_pi/.env_example` file must be renamed to `.env`. Inside the `.env` file the **Device Shadow URL** subdomain must be specified as the endpoint and the certificate names adjusted to match the actual file names.
 
 The application must be launched from the root folder of the project using terminal command `python mqtt_client.py`.
+
+CTRL + C keyboard shortcut can be used to stop the application.
