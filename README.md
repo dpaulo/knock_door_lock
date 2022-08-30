@@ -1,4 +1,8 @@
 ## SMART KNOCK DOOR LOCK WITH AMAZON ALEXA ON RASPBERRY PI
+### IEEE Xplore Short Paper
+A short paper of this project was presented in the ISNCC'22 conference and has met the quality standards to be published to the IEEE Xplore database.
+https://ieeexplore.ieee.org/document/9851818
+
 ### Installation guide
 This is the installation guide of the knock pattern detection operated door lock, which can also be controlled using Amazon Alexa device.
 
